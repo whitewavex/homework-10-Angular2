@@ -1,0 +1,16 @@
+<table class="table">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Decription</th>
+      <th>Price</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let course of courses">
+      <td>{{course.name}}</td>
+      <td>{{course.description}}</td>
+      <td>{{course.price}}</td>
+    </tr>
+  </tbody>
+</table>
